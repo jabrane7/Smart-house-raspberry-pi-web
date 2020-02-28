@@ -20,7 +20,7 @@ mkdir /var/www/html/smart
 sudo chown -R pi:www-data /var/www/html/smart                                                                   
 sudo chmod -R 770 /var/www/html/smart 
 
-git clone https://github.com/jabrane7/Smart-house-raspberry-pi-web  /var/www.html/smart                             
+git clone https://github.com/jabrane7/Smart-house-raspberry-pi-web  /var/www/html/smart                             
                                                                              
 
 3-install DHT22                                                                                                        
