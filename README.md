@@ -34,15 +34,15 @@ sudo python setup.py install
 
 4-ouvrir le navigateur web http://adressipraspberrypi/smart/house.php                                                      
 
-5) fixer adresse ip 
-sudo nano /etc/dhcpcd.conf
-interface wlan0
-static ip_address=192.168.1.10/24
-static routers=192.168.1.1
-static domain_name_servers=192.168.1.1 8.8.8.8
+5) fixer adresse ip                                                                                                                                                                               
+sudo nano /etc/dhcpcd.conf                                                                                           
+interface wlan0                                                                                                  
+static ip_address=192.168.1.10/24                                                                                        
+static routers=192.168.1.1                                                                                                  
+static domain_name_servers=192.168.1.1 8.8.8.8                                                                              
 
-interface eth0
-static ip_address=192.168.1.10/24
-static routers=192.168.1.1
-static domain_name_servers=192.168.1.1 8.8.8.8
+interface eth0                                                                                                            
+static ip_address=192.168.1.10/24                                                                                            
+static routers=192.168.1.1                                                                                               
+static domain_name_servers=192.168.1.1 8.8.8.8                                                                              
 for question : jabran.benmahmoud@outlook.com                                                      
