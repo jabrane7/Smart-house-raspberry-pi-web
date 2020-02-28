@@ -1,5 +1,6 @@
 # Smart-house-raspberry-pi-web
- je vous montre dans cet article comment prendre les choses en main et construire votre propre dispositif Smart Home, à l'adaptateur et agrandir selon vos envies, à l'aide du Raspberry Pi.
+ je vous montre dans cet article comment prendre les choses en main et construire votre propre dispositif Smart Home, et en agrandir selon vos envies, à l'aide du Raspberry Pi.
+0-ci joint le montage des relais,capteur DHT22 et Raspberry pi
 
 1-installation PHP et appache2:
 
@@ -12,7 +13,6 @@ sudo apt install php php-mbstring
 sudo visudo
 et ajouter a la fin
 www-data ALL=NOPASSWD: ALL
-
 
 2-installation de l'application
 
@@ -33,5 +33,6 @@ git clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Pyt
 
 sudo python setup.py install
 
+4-ouvrir le navigateur web http://adressipraspberrypi/smart/house.php
 
 for question : jabran.benmahmoud@outlook.com
